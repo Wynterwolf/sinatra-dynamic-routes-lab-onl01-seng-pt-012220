@@ -31,7 +31,7 @@ class App < Sinatra::Base
      @three = params[:word3]
      @four = params[:word4]
      @five = params[:word5]
-     "#{one} #{two} #{three} #{four} #{five}."
+     "#{@one} #{@two} #{@three} #{@four} #{@five}."
    end
    
 end
